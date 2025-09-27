@@ -19,14 +19,23 @@ function decrementar() {
 <template>
   <h2>{{ msg }}</h2>
   <div class="card">
-    <button @click="incrementar">+2</button>
-    <button @click="decrementar">-2</button>
+    <button @click="incrementar">Incrementar: +2</button>
+    <button @click="decrementar">Decrementar: -2</button>
     <p>Contador: {{ count }}</p>
   </div>
 </template>
 
 <style scoped>
-.read-the-docs {
-  color: #888;
+.card {
+  margin-top: 100px;
+}
+button {
+  background-color: #279157;
+  margin: 20px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+p {
+  font-size: 30px;
 }
 </style>

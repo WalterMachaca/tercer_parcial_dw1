@@ -10,10 +10,18 @@
 
 <style scoped>
 .footer {
-  margin-top: 20px;
-  background-color: #2c3e50;
+ 
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #279157;
   color: white;
   text-align: center;
   padding: 15px;
+}
+p {
+  margin: 0;
+    font-size: 24px;
 }
 </style>

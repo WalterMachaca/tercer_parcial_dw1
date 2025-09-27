@@ -13,13 +13,22 @@
 
 <style scoped>
 .navbar {
-  background-color: #2c3e50;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #279157;
   padding: 10px;
+  z-index: 1000;
 }
 ul {
   display: flex;
-  gap: 15px;
+  gap: 100px;
   list-style: none;
+    margin: 20px;
+    padding: 0;
+    font-size: 24px;    
+
 }
 a {
   color: white;
